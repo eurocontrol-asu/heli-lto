@@ -1,0 +1,14 @@
+pollutant,engine_type,regime,form,a5,a4,a3,a2,a1,a0,source_foca_2015,notes
+FF,piston,all,polynomial(shp),,1.9e-12,-1.0e-9,2.6e-7,4.0e-5,0.006,section 3.1 (Appendix E plot),Body text says 19e-12 but Appendix E plot shows 1.9e-12; 1.9e-12 is correct per sanity check at SHP=300
+FF,turboshaft,max_shp<=600,polynomial(mode_shp),2.197e-15,-4.4441e-12,3.4208e-9,-1.2138e-6,2.414e-4,0.004583,section 3.2,polynomial selected by MAX SHP
+FF,turboshaft,600<max_shp<=1000,polynomial(mode_shp),3.3158e-16,-1.0175e-12,1.1627e-9,-5.9528e-7,1.8168e-4,0.0062945,section 3.2,polynomial selected by MAX SHP
+FF,turboshaft,max_shp>1000,polynomial(mode_shp),4.0539e-18,-3.16298e-14,9.2087e-11,-1.2156e-7,1.1476e-4,0.01256,section 3.2,polynomial selected by MAX SHP
+EI_NOx,turboshaft,all,power_law: a*shp^b,,,,,0.2113,b=0.5677,section 3.2,EI_NOx = 0.2113 * SHP^0.5677 (g/kg)
+EI_HC,turboshaft,all,power_law: a*shp^b,,,,,3819,b=-1.0801,section 3.2,EI_HC = 3819 * SHP^(-1.0801) (g/kg)
+EI_CO,turboshaft,all,power_law: a*shp^b,,,,,5660,b=-1.11,section 3.2,EI_CO = 5660 * SHP^(-1.11) (g/kg)
+EI_PM_nvol,turboshaft,all,polynomial(mode_shp),,,,-4.8e-8,2.3664e-4,0.1056,section 3.2,EI_PM_nonvolatile (g/kg)
+EI_HC,piston,all,power_law: a*shp^b,,,,,80,b=-0.35,section 3.1,EI_HC = 80 * SHP^(-0.35) (g/kg)
+EI_CO,piston,all,constant,,,,,,1000,section 3.1,"Flat approximation, 1000 g/kg across power settings"
+PM_number,both,all,EI_PM / ((pi/6) * D^3 * exp(4.5*1.8^2)),,,,,,,"sections 3.1, 3.2","Lognormal size distribution, GSD=1.8. D in nm gives PM# per kg fuel"
+CO2,piston,AvGas,linear: factor*fuel_kg,,,,,,3.10,standard,CO2_kg = 3.10 * fuel_kg (AvGas combustion)
+CO2,turboshaft,Jet-A,linear: factor*fuel_kg,,,,,,3.16,standard,CO2_kg = 3.16 * fuel_kg (Jet-A combustion)

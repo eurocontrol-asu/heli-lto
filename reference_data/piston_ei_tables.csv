@@ -1,0 +1,5 @@
+power_fraction,mode_name,ei_nox_g_kg,ei_pm_g_kg,mean_particle_size_nm,source_foca_2015
+0.2,GI (ground idle),1.0,0.05,18.9,"FOCA 2015 Tables 5, 6, 7"
+0.6,AP (approach),4.0,0.04,29.2,"FOCA 2015 Tables 5, 6, 7"
+0.9,MEAN / CRUISE,2.0,0.07,39.3,"FOCA 2015 Tables 5, 6, 7"
+0.95,TO (take-off),1.0,0.1,40.3,"FOCA 2015 Tables 5, 6, 7"

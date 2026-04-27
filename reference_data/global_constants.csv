@@ -1,0 +1,9 @@
+constant,value,unit,source
+TWIN_MTOM_THRESHOLD,3400.0,kg,FOCA 2015 section 2.4 (LIGHT vs HEAVY split)
+GI_DEPARTURE_FRACTION,0.8,-,FOCA 2015 Appendix A worked example (4 min / 5 min)
+GI_ARRIVAL_FRACTION,0.2,-,FOCA 2015 Appendix A worked example (1 min / 5 min)
+LTO_CEILING_FT,3000.0,ft,ICAO LTO definition (3000 ft AGL)
+HOVER_ALT_FT,5.0,ft,FOCA IGE hover altitude
+HOVER_DURATION_S,18.0,s,FOCA 2015 Appendix A (18 s)
+CO2_FACTOR_AVGAS,3.1,kg CO2 per kg fuel,AvGas standard
+CO2_FACTOR_JET,3.16,kg CO2 per kg fuel,Jet-A standard

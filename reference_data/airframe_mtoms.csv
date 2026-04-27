@@ -1,0 +1,41 @@
+engine_name,mtow,representative_airframe,expected_category,source
+ARRIEL 1A1,3400.0,SA365C1 Dauphin 2,TWIN_TURBOSHAFT_LIGHT,"Wikipedia AS365 Dauphin: SA365C with Arriel 1A1, 3400 kg MTOW; EASA TCDS E.073 confirms Arriel 1A1 for twin-engine use"
+ARRIEL 1A2,3400.0,SA365C2 Dauphin 2,TWIN_TURBOSHAFT_LIGHT,Wikipedia AS365 Dauphin: SA365C2 with Arriel 1A2; same airframe family as SA365C1 (3400 kg)
+ARRIEL 1C,3850.0,SA365N Dauphin 2,TWIN_TURBOSHAFT_HEAVY,"Wikipedia AS365 Dauphin: SA365N (initial) with 660 shp Arriel 1C, MTOW 3850 kg (later raised to 4000 kg)"
+ARRIEL 1C1,4100.0,AS365N1 Dauphin 2,TWIN_TURBOSHAFT_HEAVY,"Wikipedia AS365 Dauphin: AS365N1 with 705 shp Arriel 1C1, MTOW 4100 kg"
+ARRIEL 1D1,2600.0,AS355N Twin Squirrel,TWIN_TURBOSHAFT_LIGHT,Arriel 1D1 at 712 SHP in twin config goes on AS355N Ecureuil 2 / Twin Squirrel (airframe CSV: AS-355 = 2600 kg). Note: also used as single on AS350B2 at 732 SHP (different row in CSV)
+ARRIEL 1E2,3585.0,MBB-BK 117 C1 / EC145,TWIN_TURBOSHAFT_HEAVY,FAA AD 2009-12-51 and StandardAero: Arriel 1E2 on Eurocopter Deutschland MBB-BK117-C1. Helicopter Specs: BK117-C1/C2 MTOW 3350-3585 kg
+ARRIEL1K1,2720.0,Agusta A109K2,TWIN_TURBOSHAFT_LIGHT,TAR 15/21B/3 Aviation.govt.nz: Arriel 1K1 is used on Agusta A109K2; A109K2 MTOW 2720 kg
+ARRIEL 2C,4300.0,AS365 N3 Dauphin 2,TWIN_TURBOSHAFT_HEAVY,"Wikipedia AS365 Dauphin: AS365 N3 with 851 shp Arriel 2C, MTOW 4300 kg"
+ARRIEL 2C1,4800.0,EC155 B,TWIN_TURBOSHAFT_HEAVY,"Globalmilitary.net EC155 B: Arriel 2C1, MTOW 4800 kg (Dauphin N3 family derivative)"
+ARRIEL 2C2,4950.0,EC155 B1 / HH-65C,TWIN_TURBOSHAFT_HEAVY,"Wikipedia EC155: B1 with Arriel 2C2, MTOW 4950 kg. Also HH-65C (Arriel 2C2-CG) at 4300 kg; we use the civilian EC155 B1 value"
+ARRIEL 2S1,5307.0,Sikorsky S-76C+,TWIN_TURBOSHAFT_HEAVY,"Wikipedia S-76: S-76C+ with Arriel 2S1 + FADEC, MTOW 5307 kg"
+ARRIUS 1A,2540.0,AS355 F Ecureuil 2 / EC135 early prototype,TWIN_TURBOSHAFT_LIGHT,EASA TCDS E.080: Arrius 1/1A1 for twin-engines helicopters. Arrius 1A was used on early EC355 (AS355 F2) derivatives; AS355 MTOW ~2540 kg
+ARRIUS 2B1,2720.0,EC135 T1,TWIN_TURBOSHAFT_LIGHT,"Wikipedia EC135: T1 with 435 kW (583 shp) Arrius 2B1, initial MTOW 2630 kg, later 2720 kg"
+ARRIUS 2B2,2910.0,EC135 T2 / T2+,TWIN_TURBOSHAFT_LIGHT,"Wikipedia/Skybrary EC135: T2 and T2+ with Arriel 2B2, MTOW 2910-2950 kg"
+ARRIUS 2K,2850.0,Agusta A109 Power / AW109 Power,TWIN_TURBOSHAFT_LIGHT,Safran: Arrius 2K2 drives the AW109 Power. AW109 Power MTOW 2850 kg
+PW206A,2850.0,Agusta A109 Power (early),TWIN_TURBOSHAFT_LIGHT,P&W PW200 page: PW206A for Agusta A109. A109 Power MTOW 2850 kg
+PW206C,2850.0,Agusta A109 E Power,TWIN_TURBOSHAFT_LIGHT,"P&W PW200 page: PW206C for Leonardo A109E Power. Confirmed by FOCA 2015 Appendix B validation (A109E, PW206C, 2850 kg MTOW)"
+PW207C,3175.0,Leonardo A109 Grand / AW109 Nexus,TWIN_TURBOSHAFT_LIGHT,P&W PW200 page: PW207C for Leonardo A109 Grand and AW109 Nexus. A109 Grand MTOW 3175 kg
+PT6B-36A,5307.0,Sikorsky S-76B,TWIN_TURBOSHAFT_HEAVY,"Wikipedia S-76: S-76B with PT6B-36A or PT6B-36B, MTOW 5307 kg"
+PT6C-67C,6400.0,AgustaWestland AW139,TWIN_TURBOSHAFT_HEAVY,"Wikipedia/SKYbrary AW139: two PT6C-67C, MTOW 6400 kg (original) or 6800/7000 kg (uprated). We use 6400 kg as the baseline"
+PT6T-3,5080.0,Bell 212 Twin Huey,TWIN_TURBOSHAFT_HEAVY,"Wikipedia/SKYbrary Bell 212: PT6T-3 Twin-Pac (two power sections, combined 1800 shp), MTOW 5080 kg. Note: the heli CSV lists PT6T-3 with n_engines=2 treating each power section as one engine"
+DDA250-C20,2300.0,MBB Bo 105 C (initial),TWIN_TURBOSHAFT_LIGHT,"Wikipedia Bo 105: Bo 105C with Allison 250-C20, MTOW ~2300 kg (later raised to 2400 kg)"
+DDA250-C20B,2500.0,MBB Bo 105 CB / CBS,TWIN_TURBOSHAFT_LIGHT,"Wikipedia/SKYbrary Bo 105: Bo 105CB/CBS with 420 shp Allison 250-C20B, MTOW 2500 kg"
+DDA250-C20F,2500.0,MBB Bo 105 CBS,TWIN_TURBOSHAFT_LIGHT,Bo 105 variant; DDA250-C20F is a minor subvariant on Bo 105 family. MTOW 2500 kg
+DDA250-C20R,2500.0,MBB Bo 105 LS A1 (Canada),TWIN_TURBOSHAFT_LIGHT,Bo 105 variant with C20R variant of Allison 250. MTOW 2500 kg (LS A1); later LS A3 Superlifter was 2850 kg
+DDA250-C20R/1,2600.0,MBB Bo 105 LS A3,TWIN_TURBOSHAFT_LIGHT,"Wikipedia Bo 105: LS A3 (1986) with DDA250-C20R variants, MTOW 2600 kg"
+DDA250-C30S,5307.0,Sikorsky S-76A (original),TWIN_TURBOSHAFT_HEAVY,Wikipedia S-76: Original S-76A used Allison 250-C30 engines; DDA250-C30S is the 650-shp twin subvariant. S-76 MTOW 5307 kg
+DDA250-C40B,2835.0,MD Explorer 900 (early),TWIN_TURBOSHAFT_LIGHT,DDA 250-C40B at 715 SHP — used in MD Explorer 900 early variants before switchover to PW207E. MD 900 MTOW 2835 kg
+LTS101-750B.1,4000.0,Aerospatiale HH-65A Dolphin,TWIN_TURBOSHAFT_HEAVY,Wikipedia HH-65 Dolphin: 734 shp LTS101-750B-2 twin; original HH-65A MTOW 4000 kg (8900 lb)
+LTS101-750C.1,3350.0,MBB-BK 117 A3/A4,TWIN_TURBOSHAFT_LIGHT,BK-117 B2 with LTS101-750B.1: 3350 kg MTOW (generalequipment.info BK-117 specifications)
+MAKILA 1A1,8600.0,Eurocopter AS332L1 Super Puma,TWIN_TURBOSHAFT_HEAVY,"Eurocopter Technical Data Brochure 2006: AS332L1 Super Puma with Makila 1A1 engines, MTOW 8600 kg at 8000 kg typical performance data"
+T700-GE-700,9185.0,Sikorsky UH-60A Black Hawk,TWIN_TURBOSHAFT_HEAVY,"Wikipedia UH-60A: T700-GE-700, 1622 shp each, MTOW 20,250 lb = 9185 kg"
+GE CT7-8A,12000.0,Sikorsky S-92,TWIN_TURBOSHAFT_HEAVY,"SKYbrary/Wikipedia S-92: two CT7-8A at 2520 shp each, MTOW 12000 kg (some brochures cite 12,835 kg / 28,300 lb)"
+TV2-117,12000.0,Mil Mi-8 (original),TWIN_TURBOSHAFT_HEAVY,"National Interest/Mi-8 specs: TV2-117 original engine, Mi-8 MTOW 12000 kg"
+TV3-117VMA,13000.0,Mil Mi-17 / Mi-171,TWIN_TURBOSHAFT_HEAVY,"SKYbrary/Wikipedia Mi-17: TV3-117VM turboshafts, MTOW 13000 kg"
+T 64-GE-7,19050.0,Sikorsky HH-53B / CH-53 Sea Stallion,TWIN_TURBOSHAFT_HEAVY,"PaveCave/Wikipedia: T64-GE-7 at 3925 shp was upgrade engine for HH-53B (twin). CH-53A/D MTOW 19,050-21,000 kg. Note: the heli CSV also shows this engine with n=3 which corresponds to CH-53D variants or treatment anomaly — both classify as HEAVY"
+ARRIEL 1B,2100.0,AS350B Squirrel,SINGLE_TURBOSHAFT,"Wikipedia AS350: AS350B with Arriel 1B, MTOW 2100 kg"
+ARRIEL 1D,2100.0,AS350B1 Squirrel,SINGLE_TURBOSHAFT,"Wikipedia AS350: AS350B1 with Arriel 1D, MTOW 2100 kg"
+HIO-360,620.0,Robinson R22 / Enstrom F-28,PISTON,"FAA Part 141 training manuals: R22 with HIO-360 (190 hp), MTOW 620 kg"
+HIO-540,1089.0,Robinson R44 Astro,PISTON,"Wikipedia R44: HIO-540 (245 hp), MTOW 1089 kg (2400 lb)"
