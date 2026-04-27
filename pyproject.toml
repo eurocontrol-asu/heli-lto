@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foca-heli"
+version = "0.1.0"
+description = "FOCA 2015 helicopter LTO emissions and trajectory calculator"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "EUPL-1.2" }
+authors = [
+    { name = "EUROCONTROL ASU", email = "open-alaqs@eurocontrol.int" },
+]
+keywords = ["helicopter", "emissions", "FOCA", "LTO", "aviation", "ICAO"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.scripts]
+foca-heli = "foca_heli.cli:main"
+
+[project.urls]
+Repository = "https://github.com/eurocontrol-asu/heli-lto"
+Issues = "https://github.com/eurocontrol-asu/heli-lto/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["foca_heli*"]
+exclude = ["tests*"]
